@@ -1,0 +1,79 @@
+# Legal Research Assistant Configuration
+
+# Application Settings
+app:
+  name: "Multi-Document Legal Research Assistant"
+  version: "1.0.0"
+  debug: false
+  
+# OpenAI Configuration  
+openai:
+  api_key: "${OPENAI_API_KEY}"
+  model: "gpt-3.5-turbo"
+  embedding_model: "text-embedding-ada-002"
+  temperature: 0.1
+  max_tokens: 2000
+
+# Vector Database Configuration
+vector_db:
+  provider: "chromadb"  # chromadb or pinecone
+  chromadb:
+    persist_directory: "./chromadb"
+    collection_name: "legal_documents"
+  pinecone:
+    api_key: "${PINECONE_API_KEY}"
+    environment: "us-west1-gcp"
+    index_name: "legal-research"
+    
+# Document Processing
+document_processing:
+  chunk_size: 1000
+  chunk_overlap: 200
+  max_file_size_mb: 50
+  supported_formats: ["pdf", "docx", "txt", "html"]
+  
+  # Document-specific chunking strategies
+  chunking_strategies:
+    contracts:
+      method: "section_based"
+      section_markers: ["SECTION", "CLAUSE", "ARTICLE", "TERM"]
+      preserve_structure: true
+    case_law:
+      method: "paragraph_based"
+      min_chunk_length: 500
+      preserve_citations: true
+    statutes:
+      method: "hierarchical"
+      hierarchy_markers: ["Section", "Art.", "Sec.", "Ch."]
+      
+# Retrieval Settings
+retrieval:
+  top_k: 5
+  similarity_threshold: 0.1
+  hybrid_search: true
+  keyword_weight: 0.3
+  semantic_weight: 0.7
+  
+# Legal Analysis
+legal_analysis:
+  conflict_detection: true
+  confidence_threshold: 0.8
+  citation_formats: ["bluebook", "alr", "westlaw"]
+  
+# UI Configuration
+streamlit:
+  page_title: "Legal Research Assistant"
+  page_icon: "scales"
+  layout: "wide"
+  sidebar_width: 400
+
+# Logging
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}"
+  file: "./logs/legal_assistant.log"
+  
+# Evaluation
+evaluation:
+  metrics: ["precision", "recall", "f1", "ragas_score"]
+  test_queries_file: "./tests/test_queries.json"

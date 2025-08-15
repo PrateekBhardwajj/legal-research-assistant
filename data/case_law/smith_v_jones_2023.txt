@@ -1,0 +1,52 @@
+SMITH v. JONES
+United States District Court for the Southern District of New York
+Case No. 23-CV-1234
+Decided: March 15, 2023
+
+PROCEDURAL HISTORY
+
+Plaintiff John Smith filed this action against defendant Mary Jones on January 5, 2023, alleging breach of contract and seeking damages in the amount of $250,000. Defendant Jones filed a motion to dismiss pursuant to Federal Rule of Civil Procedure 12(b)(6) on February 1, 2023. The Court heard oral argument on March 1, 2023.
+
+FACTS
+
+The parties entered into a software development contract on June 1, 2022, pursuant to which Jones agreed to develop a custom software application for Smith's business within 180 days. The contract specified that time was of the essence and included liquidated damages provisions for delays.
+
+Jones began work on the software but encountered technical difficulties. Despite Smith's repeated requests for status updates, Jones failed to deliver the completed software by the December 1, 2022 deadline. Smith terminated the contract on December 15, 2022, and demanded return of the $50,000 advance payment plus liquidated damages.
+
+Jones contends that the technical difficulties were unforeseeable and that Smith's frequent changes to the specifications excused her performance. Jones also argues that the liquidated damages clause is an unenforceable penalty.
+
+ANALYSIS
+
+Breach of Contract
+
+To establish a prima facie case for breach of contract under New York law, a plaintiff must prove: (1) the existence of a contract; (2) plaintiff's performance; (3) defendant's breach; and (4) damages. See Caniglia v. Chicago Tribune-New York News Syndicate, Inc., 204 A.D.2d 233, 612 N.Y.S.2d 146 (1st Dep't 1994).
+
+Here, the parties do not dispute the existence of the contract or Smith's performance of his payment obligations. The primary issue is whether Jones materially breached the contract by failing to deliver the software by the agreed deadline.
+
+Time is of the Essence
+
+When a contract specifies that "time is of the essence," failure to perform by the deadline constitutes a material breach, regardless of the reason for delay. See Kauders v. Uber Technologies, Inc., 159 A.D.3d 502, 72 N.Y.S.3d 467 (1st Dep't 2018).
+
+Jones argues that the technical difficulties were unforeseeable and should excuse her performance. However, New York courts have consistently held that commercial parties are expected to anticipate and account for technical challenges in their contracts. The mere fact that performance proved more difficult than anticipated does not excuse breach. See Digital Media Solutions v. Tech Innovations LLC, 186 A.D.3d 1234, 128 N.Y.S.3d 890 (1st Dep't 2020).
+
+Liquidated Damages
+
+Jones challenges the liquidated damages clause as an unenforceable penalty. Under New York law, liquidated damages clauses are enforceable if: (1) the amount is reasonable in relation to the anticipated harm from breach; and (2) actual damages would be difficult to determine at the time of contracting. See Truck Rent-A-Center, Inc. v. Puritan Farms 2nd, Inc., 41 N.Y.2d 420, 393 N.Y.S.2d 365 (1977).
+
+The contract provides for liquidated damages of $1,000 per day of delay, with a cap of $25,000. Given that Smith's business was dependent on the timely completion of the software, and considering the difficulty of proving lost profits, the liquidated damages clause appears reasonable and enforceable.
+
+HOLDING
+
+Defendant's motion to dismiss is DENIED. Plaintiff has stated a valid claim for breach of contract. The time-is-of-the-essence provision makes Jones's failure to perform by the deadline a material breach, regardless of the technical difficulties encountered. The liquidated damages clause appears enforceable under New York law.
+
+The case will proceed to discovery on the issue of damages and any additional claims.
+
+CONCLUSION
+
+For the foregoing reasons, defendant's motion to dismiss is denied. The parties are directed to appear for a case management conference on April 15, 2023, at 2:00 PM.
+
+IT IS SO ORDERED.
+
+________________________
+Hon. Patricia Williams
+United States District Judge

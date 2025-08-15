@@ -1,0 +1,43 @@
+# Core dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.21.0
+
+# NLP and ML
+openai>=0.27.0
+sentence-transformers>=2.2.0
+tiktoken>=0.4.0
+
+# Vector Database
+chromadb>=0.4.0
+# pinecone-client>=2.2.0  # Optional - uncomment if using Pinecone
+
+# Document Processing
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+beautifulsoup4>=4.12.0
+nltk>=3.8.0
+pdfplumber>=0.9.0
+
+# Data Processing
+regex>=2023.0.0
+fuzzywuzzy>=0.18.0
+# python-Levenshtein>=0.21.0  # Optional speedup for fuzzywuzzy
+
+# Configuration
+python-dotenv>=1.0.0
+PyYAML>=6.0.0
+
+# Utilities
+tqdm>=4.65.0
+requests>=2.28.0
+
+# Logging
+loguru>=0.7.0
+
+# Optional packages (install separately if needed)
+# transformers>=4.30.0
+# torch>=2.0.0
+# spacy>=3.6.0
+# datasets>=2.14.0
+# pytest>=7.4.0
